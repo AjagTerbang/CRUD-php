@@ -10,13 +10,8 @@
       
         $nama=$_POST['nama'];
         $skor=$_POST['skor'];
-        if (!$nama || $skor) {
-            return "
-            <script>
-                alert('Harap isi data dengan benar!');
-            </script>
-            ";
-        }
+        
+        
         $result = $db->addPemain($nama, $skor);
         if($result){
             echo "  <script>                
@@ -39,7 +34,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public\css\maxcdn.bootstrapcdn.com_bootstrap_4.0.0_css_bootstrap.min.css">
 
@@ -59,11 +54,11 @@
             <form method="POST" class="row justify-content-center mb-4">
                 <div class="col-10 mb-3">
                     <label for="nama" style="color: white;">NAMA</label>
-                    <input type="text" id="nama"class="form-control" name="nama" placeholder="NAMA" require>
+                    <input type="text" id="nama"class="form-control" name="nama" placeholder="NAMA" required>
                 </div>
                 <div class="col-10 mb-3">
                     <label for="skor" style="color: white;">SKOR</label>
-                    <input type="number" id="skor"class="form-control" name="skor" placeholder="0" require>
+                    <input type="number" id="skor"class="form-control" name="skor" placeholder="0" required>
                 </div>
                 <div class="col-10 mb-5">
                     <input type="submit" name="submit"value="tambah" class="btn btn-primary">

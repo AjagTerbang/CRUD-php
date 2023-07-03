@@ -31,8 +31,8 @@
     <title>Form Login</title>
     <link rel="stylesheet" href="public\css\maxcdn.bootstrapcdn.com_bootstrap_4.0.0_css_bootstrap.min.css">
 </head>
-
-<body style="background-image: url(public/img/wp2.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+<!-- <body style="background-image: url(public/img/wp2.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;"> -->
+<body style="background-color: #1d2630;">
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
