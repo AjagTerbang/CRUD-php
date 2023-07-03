@@ -44,30 +44,30 @@
     <link rel="stylesheet" href="public\css\maxcdn.bootstrapcdn.com_bootstrap_4.0.0_css_bootstrap.min.css">
 
     
-    <title>CRUD</title>
+    <title>Ranking Bulu Tangkis</title>
 </head>
-<body>
+<body style="background-image: url(public/img/wp2.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
 
 
     <div class="container mt-5">
         <div class="text-center">
-            <h1 class="display-5 mb-5">
-                CUAKSS
+            <h1 class="display-5 mb-5" style="color: white;">
+                Ranking Pemain Bulu Tangkis Tunggal Putra
             </h1>
         </div>
         <div class="main row justify-content-center">
             <form method="POST" class="row justify-content-center mb-4">
                 <div class="col-10 mb-3">
-                    <label for="nama">NAMA</label>
+                    <label for="nama" style="color: white;">NAMA</label>
                     <input type="text" id="nama"class="form-control" name="nama" placeholder="NAMA" require>
                 </div>
                 <div class="col-10 mb-3">
-                    <label for="skor">SKOR</label>
+                    <label for="skor" style="color: white;">SKOR</label>
                     <input type="number" id="skor"class="form-control" name="skor" placeholder="0" require>
                 </div>
                 <div class="col-10 mb-5">
-                    <input type="submit" name="submit"value="tambah">
-                    <input type="submit" name="logout"value="logout" class="btn-danger btn-sm">
+                    <input type="submit" name="submit"value="tambah" class="btn btn-primary">
+                    <input type="submit" name="logout"value="logout" class="btn b">
                 </div>
                 
             </form>
